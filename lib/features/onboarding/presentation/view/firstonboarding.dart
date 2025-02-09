@@ -3,6 +3,8 @@ import 'package:skoon/core/utilies/app_images.dart';
 import 'package:skoon/features/onboarding/presentation/view/secoundonboarding.dart';
 import 'package:skoon/features/onboarding/presentation/view/widgets/CustomeContainerImage.dart';
 
+import '../../../auth/view/registerpage.dart';
+
 class FirstOnboarding extends StatelessWidget {
   const FirstOnboarding({super.key});
 
@@ -47,7 +49,7 @@ class FirstOnboarding extends StatelessWidget {
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
-              TextButton(onPressed: (){}, child: Text("Skip",style: TextStyle(color: Colors.white54),),),
+              TextButton(onPressed: (){Navigator.of(context).pushAndRemoveUntil(MaterialPageRoute(builder: (context) => RegisterPage(),), (route) => false,);}, child: Text("Skip",style: TextStyle(color: Colors.white54),),),
               ElevatedButton(
                   style: ElevatedButton.styleFrom(
                     padding: EdgeInsets.only(top: screenSize.height*0.021,bottom: screenSize.height*0.021),

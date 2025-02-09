@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:skoon/core/utilies/app_images.dart';
 import 'package:skoon/features/onboarding/presentation/view/widgets/CustomeContainerImage.dart';
+import '../../../auth/view/registerpage.dart';
 
 class ThirdOnboarding extends StatelessWidget {
   const ThirdOnboarding({super.key});
@@ -46,14 +47,14 @@ class ThirdOnboarding extends StatelessWidget {
                 Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
-                    TextButton(onPressed: (){}, child: Text("Skip",style: TextStyle(color: Colors.white54),),),
+                    TextButton(onPressed: (){Navigator.of(context).pushAndRemoveUntil(MaterialPageRoute(builder: (context) => RegisterPage(),), (route) => false,);}, child: Text("Skip",style: TextStyle(color: Colors.white54),),),
                     ElevatedButton(
                         style: ElevatedButton.styleFrom(
                             padding: EdgeInsets.only(top: screenSize.height*0.021,bottom: screenSize.height*0.021),
                             backgroundColor: Colors.white10,
                             shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12))
                         ),
-                        onPressed: (){}, child: Icon(Icons.arrow_forward_ios_outlined,color: Colors.white,))
+                        onPressed: (){Navigator.of(context).pushAndRemoveUntil(MaterialPageRoute(builder: (context) => RegisterPage(),), (route) => false,);}, child: Icon(Icons.arrow_forward_ios_outlined,color: Colors.white,))
                   ],)
               ],),
           )
