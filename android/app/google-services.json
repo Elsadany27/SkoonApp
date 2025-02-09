@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "494340748298",
+    "project_id": "oksha-e15b2",
+    "storage_bucket": "oksha-e15b2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:494340748298:android:d90d88b6aff103554e5bf3",
+        "android_client_info": {
+          "package_name": "com.example.skoon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "494340748298-e7kvnjr6dphul43tsa81d56n9l61p4qj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxOBxeV7hvGW4mWenj5xsF08XiOHvBFFI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "494340748298-e7kvnjr6dphul43tsa81d56n9l61p4qj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
