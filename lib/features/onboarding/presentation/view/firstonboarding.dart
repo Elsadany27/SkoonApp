@@ -3,7 +3,9 @@ import 'package:skoon/core/utilies/app_images.dart';
 import 'package:skoon/features/onboarding/presentation/view/secoundonboarding.dart';
 import 'package:skoon/features/onboarding/presentation/view/widgets/CustomeContainerImage.dart';
 
-import '../../../auth/view/registerpage.dart';
+import '../../../auth/presentation/view/registerpage.dart';
+
+
 
 class FirstOnboarding extends StatelessWidget {
   const FirstOnboarding({super.key});

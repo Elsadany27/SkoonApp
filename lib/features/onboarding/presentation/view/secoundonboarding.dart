@@ -2,7 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:skoon/core/utilies/app_images.dart';
 import 'package:skoon/features/onboarding/presentation/view/thirdonboarding.dart';
 import 'package:skoon/features/onboarding/presentation/view/widgets/CustomeContainerImage.dart';
-import '../../../auth/view/registerpage.dart';
+import '../../../auth/presentation/view/registerpage.dart';
+
 
 class SecoundOnboarding extends StatelessWidget {
   const SecoundOnboarding({super.key});
