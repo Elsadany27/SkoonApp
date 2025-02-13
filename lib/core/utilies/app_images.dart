@@ -11,4 +11,6 @@ class assets{
   static String reservetable="images/assets/reserve table.png";
   static String takeaway="images/assets/takeaway.jpg";
   static String google="images/assets/google.png";
+  static String coverfoodorder="images/assets/food order onboarding.jpg";
+  static String profileimage="images/assets/7229a2262762.5ec41fb7d6398-removebg-preview-removebg-preview-removebg-preview.png";
 }

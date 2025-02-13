@@ -12,6 +12,11 @@ class CustomeTextform extends StatelessWidget {
   Widget build(BuildContext context) {
     final screenSize = MediaQuery.of(context).size;
     return  TextFormField(
+      validator: (value) {
+        if(value!.isEmpty){
+          return "field empty";
+        }
+      },
       controller: controller,
       obscureText: securetext!,
       decoration: InputDecoration(
